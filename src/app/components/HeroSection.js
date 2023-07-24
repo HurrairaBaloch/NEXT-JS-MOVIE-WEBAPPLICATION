@@ -1,5 +1,5 @@
 import React from "react";
-import herostyle from "@/app/styles/HeroSection.module.css";
+import herostyle from "../../app/styles/herosection.module.css";
 import common from "@/app/styles/common.module.css";
 import Link from "next/link";
 import Image from "next/image";

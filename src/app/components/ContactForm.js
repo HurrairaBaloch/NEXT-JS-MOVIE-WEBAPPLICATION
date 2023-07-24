@@ -135,7 +135,13 @@ const ContactForm = () => {
           </p>
         )}
 
-        <button type="submit" className={mulish.className}>
+        <button
+          onClick={() => {
+            alert("Your data has been sent");
+          }}
+          type="submit"
+          className={mulish.className}
+        >
           Send Message
         </button>
       </div>
